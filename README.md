@@ -1,5 +1,9 @@
 <h1 align="center" >JS-Animation Design Game</h1>
-This is a simple game created using JavaScript animation where the user needs to move a block upwards and sideways without touching the obstacles.
+
+- This is a simple game created using JavaScript animation where the user needs to move a block upwards and sideways without touching the obstacles.
+<p align="center">
+<img height="200" wedith="200" src="https://th.bing.com/th/id/R.ec2b6b276b0fbcb83b4ef4659399bbd3?rik=nn8c4uxlNuE1uw&riu=http%3a%2f%2fwww.wiccagirl.faithweb.com%2fimages%2fanimated_stacking_blocks.gif&ehk=od70pTf5f9MaaJlgI%2bFL8pyJGtoIu7iINOYVr%2fbn4MM%3d&risl=&pid=ImgRaw&r=0"></p>
+<br>
 <hr>
 <h1 align="center" >How to Play</h1>
 
@@ -9,10 +13,13 @@ This is a simple game created using JavaScript animation where the user needs to
 - Avoid touching the obstacles.<br>
 <hr>
 <h1 align="center" >Technologies Used</h1>
-<h3 align="left" >This game is created using the following technologies:</h3>
+<h3 align="left" >
+  
+  - This game is created using the following technologies:</h3>
 <p align="right">
 <img height="100" wedith="100" src="https://clipartcraft.com/images/html5-logo-css3-9.png"></p>
 <br>
+
 - HTML<br>
 - CSS<br>
 - JavaScript<br>
