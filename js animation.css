@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main {
+    width: 300px;
+    height: 300px;
+    background: black;
+    position: relative;
+    box-shadow: 0 0 20px 5px white;
+}
+.block {
+    width: 50px;
+    height: 50px;
+    background: red;
+    position: absolute;
+    left: 300px;
+    transition: 10ms;
+    transition-timing-function: linear;
+}
+.controls {
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+.key {
+    color: red;
+    display: inline-block;
+    font-size: 56px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+.up {
+    top: 0px;
+    left: 50px;
+}
+.down {
+    bottom: 0px;
+    left: 50px;
+}
+.left {
+    top: 50px;
+    left: 0px;
+}
+.right {
+    top: 50px;
+    right: 0px;
+}
+.glow {
+    animation-name: anim;
+    animation-duration: 80ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+@keyframes anim {
+    0% {
+        filter: drop-shadow(0 0 0px #FFF);
+    }
+    25% {
+        filter: drop-shadow(0 0 20px #FFF);
+    }
+    75% {
+        filter: drop-shadow(0 0 20px #FFF);
+    }
+    100%{
+        filter: drop-shadow(0 0 0px #FFF);
+    }
+}
