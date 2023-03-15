@@ -10,10 +10,13 @@ This is a simple game created using JavaScript animation where the user needs to
 <hr>
 <h1 align="center" >Technologies Used</h1>
 <h3 align="left" >This game is created using the following technologies:</h3>
-
+<p align="right">
+<img height="100" wedith="100" src="https://clipartcraft.com/images/html5-logo-css3-9.png"></p>
+<br>
 - HTML<br>
 - CSS<br>
 - JavaScript<br>
+
 <hr>
 <h1 align="center" >Contributing</h1>
 Contributions are always welcome! If you want to contribute to this project, please follow these steps:
